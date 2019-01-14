@@ -5,7 +5,7 @@
 */
 
 document.write('<img src="../logo.png" alt="Algo falla no logo">');
-document.write('<h1> Páxina de mates que usa .css </h1>')
+document.write('<h1> Ejercicio 2 de javascript   tengo miedo... </h1>')
 
 // as variables decláranse
 var num1; 
@@ -26,12 +26,14 @@ document.write('<br> <hr>Atención ós erros nas contas (dividir entre 0) será.
 
 document.write('<hr><h3>Javascript "inventa" un número entre 0 e 10</h3>');
 
+var nume5 = Math.dividir
+
 var misterio = Math.random();
 document.write('<br>Xenero un número aleatorio menor ca un: '+ misterio);
 
 //olliño con este truquito para non crear máis variables
 misterio = misterio*10;
-document.write('<br> Agora está entre 0 e 10: '+ misterio);
+document.write('<br> Agora está entre 0 e 100: '+ misterio);
 
 //olliño con este truquito para non crear máis variables (outra vez)
 misterio = Math.round(misterio)
