@@ -24,9 +24,9 @@ var solucionado = parseFloat(num1)+parseFloat(num2)+parseFloat(num3);
 
 document.write('<center><h2>Total a pagar:</h2></center>')
 document.write("producto1"+"<center>"+num1+"</center>")
-document.write("producto2"+"<center>"+num2+"</center>")
-document.write("producto3"+"<center>"+num3+"</center>")
+document.write("producto1"+"<center>"+num2+"</center>")
+document.write("producto1"+"<center>"+num3+"</center>")
 document.write("<br>")
 document.write("<br>")
 
-document.write(solucionado)
+document.write("total"+"<center>"+solucionado+"</center>")
