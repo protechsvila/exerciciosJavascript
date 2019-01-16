@@ -17,7 +17,7 @@ document.write('<h2> Bucle WHILE</h2>');
 //exercicio 1
 document.write('<h3>☞ Contar ata cinco</h3>');
 numerito = 0;
-while (numerito <=15){
+while (numerito <=10){
 	document.write(numerito + ' ');
 	numerito++;
 }
@@ -39,7 +39,7 @@ document.write('<h2> Bucle FOR</h2>');
 //exercicio 1
 document.write('<h3>☞ Facer algo cinco veces</h3>');
 for (var i=1; i<= 5; i++) {
-	document.write('quieres que te cuente el cuento de la buena pipa? ');
+	document.write("caca de vaka")
 }
 
 //exercicio 2
@@ -61,3 +61,9 @@ for (var i=2; i<= 10; i++) {
 }
 
 
+
+numerito = 0;
+while (numerito <=10){
+	document.write(numerito + ' ');
+	numerito++;
+}
