@@ -59,11 +59,3 @@ document.write('<h3>☞ Outra canción infantil</h3>');
 for (var i=2; i<= 10; i++) {
 	document.write(i +' 🐘 se balanceaban sobre la tela... ');
 }
-
-
-
-numerito = 0;
-while (numerito <=10){
-	document.write(numerito + ' ');
-	numerito++;
-}
