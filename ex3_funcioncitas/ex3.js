@@ -26,11 +26,10 @@ function media(n1,n2){
 
 		 resposta=(parseInt(n1)+parseInt(n2))/2;
 		 return resposta;
-		 alert(resposta);
 		}
 
 media(n1_user,n2_user);
-
+alert(resposta);
 
 
 
