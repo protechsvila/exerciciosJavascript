@@ -18,11 +18,9 @@ while (escolle!=misterio)
 
 	
 	
-}
 
-
-if (escolle == misterio)
-{
+	if (escolle == misterio)
+	{
 	//alerta in
 	alert("Moi ben, acertaches¡¡¡   PARABÉNS¡¡")
 }
@@ -32,12 +30,14 @@ else if(escolle > misterio)
 	alert("Non,o número misterio é menor que"+" "+escolle)
 }
 else if(escolle < misterio)
-	{
+{
 
 	alert("Non, o número misterioso é maior que"+" "+escolle)
 
-	}
+}
 
+
+}
 
 
 
@@ -55,3 +55,5 @@ while (comida != 'nada') {
 	document.write(comida+ ' ');
 	comida  = prompt('Que vos apetece comer con pan?');
 }
+
+
