@@ -7,7 +7,6 @@ misterio = misterio*10;
 //redondeo para non ter decimais
 misterio = Math.round(misterio)
 
-document.write(misterio);
 
 var escolle = prompt('Cal é  o número misterioso menor ca 10? ')
 
@@ -27,18 +26,19 @@ while (escolle!=misterio)
 else if(escolle > misterio)
 {
 
-	alert("Non,o número misterio é menor que"+" "+escolle)
+	alert("Non,o número misterio é menor que"+" "+escolle);
+	var escolle = prompt('Cal é  o número misterioso menor ca 10? ');
 }
 else if(escolle < misterio)
 {
 
-	alert("Non, o número misterioso é maior que"+" "+escolle)
+	alert("Non, o número misterioso é maior que"+" "+escolle);
+	var escolle = prompt('Cal é  o número misterioso menor ca 10? ');
 
 }
 
 
 }
-
 
 
 
