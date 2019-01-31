@@ -31,4 +31,13 @@ function cambiarTexto() {
 function consultarHora() {
 	var agora=Date();
 	document.getElementById("hora").innerHTML = agora;
+
+}
+
+function colortit(colorazo,tamano){
+
+var textas = document.getElementById('titulo');
+textas.style.fontWeight = colorazo;
+textas.style.fontSize = tamano;
+
 }
